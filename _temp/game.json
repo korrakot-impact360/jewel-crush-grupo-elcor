@@ -1,0 +1,844 @@
+{"frames": [
+
+{
+	"filename": "game/btn-bg",
+	"frame": {"x":485,"y":772,"w":51,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":51},
+	"sourceSize": {"w":51,"h":51}
+},
+{
+	"filename": "game/effects/1",
+	"frame": {"x":543,"y":652,"w":186,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":85},
+	"sourceSize": {"w":186,"h":85}
+},
+{
+	"filename": "game/effects/2",
+	"frame": {"x":543,"y":739,"w":186,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":85},
+	"sourceSize": {"w":186,"h":85}
+},
+{
+	"filename": "game/effects/3",
+	"frame": {"x":731,"y":764,"w":186,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":85},
+	"sourceSize": {"w":186,"h":85}
+},
+{
+	"filename": "game/effects/4",
+	"frame": {"x":485,"y":826,"w":186,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":85},
+	"sourceSize": {"w":186,"h":85}
+},
+{
+	"filename": "game/effects/5",
+	"frame": {"x":731,"y":764,"w":186,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":85},
+	"sourceSize": {"w":186,"h":85}
+},
+{
+	"filename": "game/effects/6",
+	"frame": {"x":543,"y":739,"w":186,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":85},
+	"sourceSize": {"w":186,"h":85}
+},
+{
+	"filename": "game/effects/bomb1",
+	"frame": {"x":953,"y":809,"w":45,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":46},
+	"sourceSize": {"w":45,"h":46}
+},
+{
+	"filename": "game/effects/bomb2",
+	"frame": {"x":531,"y":1029,"w":19,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":19},
+	"sourceSize": {"w":19,"h":19}
+},
+{
+	"filename": "game/effects/bomb3",
+	"frame": {"x":648,"y":1059,"w":47,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":47},
+	"sourceSize": {"w":47,"h":47}
+},
+{
+	"filename": "game/effects/bomb4",
+	"frame": {"x":929,"y":1,"w":84,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":85},
+	"sourceSize": {"w":84,"h":85}
+},
+{
+	"filename": "game/effects/bomb5",
+	"frame": {"x":731,"y":652,"w":110,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":110,"h":110},
+	"sourceSize": {"w":110,"h":110}
+},
+{
+	"filename": "game/effects/bomb6",
+	"frame": {"x":1,"y":1090,"w":145,"h":145},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":145,"h":145},
+	"sourceSize": {"w":145,"h":145}
+},
+{
+	"filename": "game/effects/bomb7",
+	"frame": {"x":1,"y":854,"w":226,"h":234},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":226,"h":234},
+	"sourceSize": {"w":226,"h":234}
+},
+{
+	"filename": "game/effects/bomb8",
+	"frame": {"x":229,"y":854,"w":227,"h":227},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":227,"h":227},
+	"sourceSize": {"w":227,"h":227}
+},
+{
+	"filename": "game/effects/bomb9",
+	"frame": {"x":229,"y":1083,"w":200,"h":194},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":194},
+	"sourceSize": {"w":200,"h":194}
+},
+{
+	"filename": "game/effects/line/gem2-1",
+	"frame": {"x":673,"y":826,"w":55,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":63},
+	"sourceSize": {"w":55,"h":63}
+},
+{
+	"filename": "game/effects/line/gem2-2",
+	"frame": {"x":911,"y":164,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62}
+},
+{
+	"filename": "game/effects/line/gem2-3",
+	"frame": {"x":762,"y":1070,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63}
+},
+{
+	"filename": "game/effects/line/gem3-1",
+	"frame": {"x":954,"y":1070,"w":55,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":63},
+	"sourceSize": {"w":55,"h":63}
+},
+{
+	"filename": "game/effects/line/gem3-2",
+	"frame": {"x":944,"y":358,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62}
+},
+{
+	"filename": "game/effects/line/gem3-3",
+	"frame": {"x":826,"y":1070,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63}
+},
+{
+	"filename": "game/effects/line/gem4-1",
+	"frame": {"x":885,"y":228,"w":55,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":63},
+	"sourceSize": {"w":55,"h":63}
+},
+{
+	"filename": "game/effects/line/gem4-2",
+	"frame": {"x":916,"y":617,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62}
+},
+{
+	"filename": "game/effects/line/gem4-3",
+	"frame": {"x":890,"y":1070,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63}
+},
+{
+	"filename": "game/effects/line/gem5-1",
+	"frame": {"x":885,"y":293,"w":55,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":63},
+	"sourceSize": {"w":55,"h":63}
+},
+{
+	"filename": "game/effects/line/gem5-2",
+	"frame": {"x":915,"y":681,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62}
+},
+{
+	"filename": "game/effects/line/gem5-3",
+	"frame": {"x":942,"y":228,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63}
+},
+{
+	"filename": "game/effects/line/gem6-1",
+	"frame": {"x":767,"y":1199,"w":55,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":63},
+	"sourceSize": {"w":55,"h":63}
+},
+{
+	"filename": "game/effects/line/gem6-2",
+	"frame": {"x":919,"y":745,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62}
+},
+{
+	"filename": "game/effects/line/gem6-3",
+	"frame": {"x":942,"y":293,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63}
+},
+{
+	"filename": "game/effects/line/gem7-1",
+	"frame": {"x":824,"y":1199,"w":55,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":63},
+	"sourceSize": {"w":55,"h":63}
+},
+{
+	"filename": "game/effects/line/gem7-2",
+	"frame": {"x":646,"y":1135,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62}
+},
+{
+	"filename": "game/effects/line/gem7-3",
+	"frame": {"x":916,"y":422,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63}
+},
+{
+	"filename": "game/effects/line/gem8-1",
+	"frame": {"x":881,"y":1198,"w":55,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":63},
+	"sourceSize": {"w":55,"h":63}
+},
+{
+	"filename": "game/effects/line/gem8-2",
+	"frame": {"x":710,"y":1135,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62}
+},
+{
+	"filename": "game/effects/line/gem8-3",
+	"frame": {"x":916,"y":487,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63}
+},
+{
+	"filename": "game/effects/line/gem9-1",
+	"frame": {"x":938,"y":1198,"w":55,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":63},
+	"sourceSize": {"w":55,"h":63}
+},
+{
+	"filename": "game/effects/line/gem9-2",
+	"frame": {"x":774,"y":1135,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62}
+},
+{
+	"filename": "game/effects/line/gem9-3",
+	"frame": {"x":916,"y":552,"w":62,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":63},
+	"sourceSize": {"w":62,"h":63}
+},
+{
+	"filename": "game/effects/match01",
+	"frame": {"x":501,"y":418,"w":12,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":12},
+	"sourceSize": {"w":12,"h":12}
+},
+{
+	"filename": "game/effects/match02",
+	"frame": {"x":673,"y":891,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":20},
+	"sourceSize": {"w":20,"h":20}
+},
+{
+	"filename": "game/effects/match03",
+	"frame": {"x":919,"y":809,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32}
+},
+{
+	"filename": "game/effects/match04",
+	"frame": {"x":980,"y":575,"w":36,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":36},
+	"sourceSize": {"w":36,"h":36}
+},
+{
+	"filename": "game/effects/match05",
+	"frame": {"x":949,"y":857,"w":46,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":47},
+	"sourceSize": {"w":46,"h":47}
+},
+{
+	"filename": "game/effects/match06",
+	"frame": {"x":964,"y":1135,"w":54,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":53},
+	"sourceSize": {"w":54,"h":53}
+},
+{
+	"filename": "game/effects/match07",
+	"frame": {"x":838,"y":1135,"w":62,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":61},
+	"sourceSize": {"w":62,"h":61}
+},
+{
+	"filename": "game/effects/match08",
+	"frame": {"x":576,"y":1198,"w":66,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":66},
+	"sourceSize": {"w":66,"h":66}
+},
+{
+	"filename": "game/effects/match09",
+	"frame": {"x":458,"y":1029,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/effects/match10",
+	"frame": {"x":576,"y":1129,"w":68,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":68,"h":67},
+	"sourceSize": {"w":68,"h":67}
+},
+{
+	"filename": "game/effects/match11",
+	"frame": {"x":552,"y":913,"w":72,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":71},
+	"sourceSize": {"w":72,"h":71}
+},
+{
+	"filename": "game/effects/match12",
+	"frame": {"x":154,"y":1167,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73}
+},
+{
+	"filename": "game/effects/match13",
+	"frame": {"x":929,"y":88,"w":73,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":73},
+	"sourceSize": {"w":73,"h":73}
+},
+{
+	"filename": "game/effects/match14",
+	"frame": {"x":626,"y":913,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/effects/match15",
+	"frame": {"x":431,"y":1102,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/effects/match16",
+	"frame": {"x":148,"y":1090,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "game/effects/match17",
+	"frame": {"x":697,"y":1070,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63}
+},
+{
+	"filename": "game/effects/match18",
+	"frame": {"x":885,"y":358,"w":57,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":57},
+	"sourceSize": {"w":57,"h":57}
+},
+{
+	"filename": "game/effects/match19",
+	"frame": {"x":980,"y":422,"w":38,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":55},
+	"sourceSize": {"w":38,"h":55}
+},
+{
+	"filename": "game/effects/match20",
+	"frame": {"x":154,"y":1242,"w":18,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":24},
+	"sourceSize": {"w":18,"h":24}
+},
+{
+	"filename": "game/effects/sparkle/1",
+	"frame": {"x":501,"y":228,"w":190,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":188},
+	"sourceSize": {"w":190,"h":188}
+},
+{
+	"filename": "game/effects/sparkle/2",
+	"frame": {"x":693,"y":228,"w":190,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":188},
+	"sourceSize": {"w":190,"h":188}
+},
+{
+	"filename": "game/effects/sparkle/3",
+	"frame": {"x":532,"y":418,"w":190,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":188},
+	"sourceSize": {"w":190,"h":188}
+},
+{
+	"filename": "game/effects/sparkle/4",
+	"frame": {"x":724,"y":418,"w":190,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":188},
+	"sourceSize": {"w":190,"h":188}
+},
+{
+	"filename": "game/effects/sparkle/5",
+	"frame": {"x":532,"y":418,"w":190,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":188},
+	"sourceSize": {"w":190,"h":188}
+},
+{
+	"filename": "game/effects/sparkle/6",
+	"frame": {"x":693,"y":228,"w":190,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":188},
+	"sourceSize": {"w":190,"h":188}
+},
+{
+	"filename": "game/finger",
+	"frame": {"x":576,"y":1059,"w":70,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":68},
+	"sourceSize": {"w":70,"h":68}
+},
+{
+	"filename": "game/gem1",
+	"frame": {"x":431,"y":1175,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/gem2",
+	"frame": {"x":625,"y":986,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/gem3",
+	"frame": {"x":730,"y":851,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/gem4",
+	"frame": {"x":803,"y":851,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/gem5",
+	"frame": {"x":876,"y":851,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/gem6",
+	"frame": {"x":699,"y":924,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/gem7",
+	"frame": {"x":772,"y":924,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/gem8",
+	"frame": {"x":845,"y":924,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/gem9",
+	"frame": {"x":698,"y":997,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/gem10",
+	"frame": {"x":552,"y":986,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/header",
+	"frame": {"x":1,"y":621,"w":540,"h":149},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":540,"h":149},
+	"sourceSize": {"w":540,"h":149}
+},
+{
+	"filename": "game/hint1",
+	"frame": {"x":458,"y":913,"w":92,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":56},
+	"sourceSize": {"w":92,"h":56}
+},
+{
+	"filename": "game/hint2",
+	"frame": {"x":458,"y":971,"w":92,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":56},
+	"sourceSize": {"w":92,"h":56}
+},
+{
+	"filename": "game/match07",
+	"frame": {"x":838,"y":1135,"w":62,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":61},
+	"sourceSize": {"w":62,"h":61}
+},
+{
+	"filename": "game/powerup1-1",
+	"frame": {"x":771,"y":997,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/powerup1-2",
+	"frame": {"x":844,"y":997,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/powerup2-1",
+	"frame": {"x":918,"y":924,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/powerup2-2",
+	"frame": {"x":917,"y":997,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/powerup4",
+	"frame": {"x":843,"y":608,"w":71,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":71},
+	"sourceSize": {"w":71,"h":71}
+},
+{
+	"filename": "game/powerup5",
+	"frame": {"x":706,"y":1199,"w":59,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":59},
+	"sourceSize": {"w":59,"h":59}
+},
+{
+	"filename": "game/result-bg",
+	"frame": {"x":1,"y":1,"w":498,"h":434},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":498,"h":434},
+	"sourceSize": {"w":498,"h":434}
+},
+{
+	"filename": "game/result-complete",
+	"frame": {"x":997,"y":857,"w":21,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":19},
+	"sourceSize": {"w":21,"h":19}
+},
+{
+	"filename": "game/result-list",
+	"frame": {"x":501,"y":1,"w":426,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":426,"h":161},
+	"sourceSize": {"w":426,"h":161}
+},
+{
+	"filename": "game/result-ribbon",
+	"frame": {"x":1,"y":437,"w":529,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":529,"h":182},
+	"sourceSize": {"w":529,"h":182}
+},
+{
+	"filename": "game/result-star-bg",
+	"frame": {"x":902,"y":1135,"w":60,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":61},
+	"sourceSize": {"w":60,"h":61}
+},
+{
+	"filename": "game/result-star",
+	"frame": {"x":644,"y":1199,"w":60,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":61},
+	"sourceSize": {"w":60,"h":61}
+},
+{
+	"filename": "game/result-uncomplete",
+	"frame": {"x":997,"y":878,"w":21,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":19},
+	"sourceSize": {"w":21,"h":19}
+},
+{
+	"filename": "game/small-box",
+	"frame": {"x":1,"y":1237,"w":151,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":151,"h":34},
+	"sourceSize": {"w":151,"h":34}
+},
+{
+	"filename": "game/star-bar-bg",
+	"frame": {"x":1,"y":772,"w":482,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":482,"h":39},
+	"sourceSize": {"w":482,"h":39}
+},
+{
+	"filename": "game/star-bar",
+	"frame": {"x":1,"y":813,"w":482,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":482,"h":39},
+	"sourceSize": {"w":482,"h":39}
+},
+{
+	"filename": "game/star-tag-off",
+	"frame": {"x":980,"y":479,"w":38,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":46},
+	"sourceSize": {"w":38,"h":46}
+},
+{
+	"filename": "game/star-tag-on",
+	"frame": {"x":980,"y":527,"w":38,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":46},
+	"sourceSize": {"w":38,"h":46}
+},
+{
+	"filename": "game/tile",
+	"frame": {"x":843,"y":681,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":69},
+	"sourceSize": {"w":70,"h":69}
+},
+{
+	"filename": "game/tile1",
+	"frame": {"x":504,"y":1102,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":69},
+	"sourceSize": {"w":70,"h":69}
+},
+{
+	"filename": "game/tile2",
+	"frame": {"x":504,"y":1173,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":69},
+	"sourceSize": {"w":70,"h":69}
+},
+{
+	"filename": "game/woodplate-box",
+	"frame": {"x":543,"y":608,"w":289,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":289,"h":42},
+	"sourceSize": {"w":289,"h":42}
+},
+{
+	"filename": "game/woodplate",
+	"frame": {"x":501,"y":164,"w":408,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":408,"h":62},
+	"sourceSize": {"w":408,"h":62}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "game.png",
+	"format": "RGBA8888",
+	"size": {"w":1019,"h":1278},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a643813613c135e85b6711bc47cca42b:a1727c02dcea29089f1a19cf4a0c6849:fc2835210f98bae8e8c1b7f0a84c9321$"
+}
+}
