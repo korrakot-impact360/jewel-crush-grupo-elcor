@@ -2,7 +2,7 @@
 		this.FRAMEBREAKER;
 		MyGame = ig.Game.extend({
 			name: "MJS-JewelCrushResponsiveHD", // Name of the game, used as part of the key name in localstorage
-			version: "1.0.0", // Version of game data, used as part of the key name in localStorage
+			version: "1.0.1", // Version of game data, used as part of the key name in localStorage
 			frameworkVersion: "2.0.2",
 			sessionData: {},
 			io: null,
@@ -29,6 +29,8 @@
 	            	highScores:[],
 	                bgmVol: 0.5,
 	                sfxVol: 0.8,
+	                bgmOn:true,
+	                sfxOn:true,
 	            };
 
 	            return this.sessionData;
@@ -74,7 +76,9 @@
 				// SHOW DEBUG PANELS
 				$('.ig_debug').show();
 			},
-			start: function () {				
+			start: function () {			
+				this.checkSound()
+
 				this.director = new ig.Director(this, [
 					LevelOpening
 					,LevelMainmenu
@@ -82,7 +86,7 @@
 					,LevelGameplay
 				]);
 
-				// this.director.currentLevel = 3;
+				this.director.currentLevel = 2;
 				
 				// CALL LOAD LEVELS
 				if (_SETTINGS['Branding']['Splash']['Enabled']) {
@@ -99,11 +103,25 @@
 				if(_SETTINGS['Branding']['Splash']['Enabled'] || _SETTINGS['DeveloperBranding']['Splash']['Enabled']) {
 					this.spawnEntity(EntityPointerSelector, 50, 50);
 				}
+			},
 
-				// Set volume from sessionData
+			checkSound:function(){
 				ig.soundHandler.bgmPlayer.volume(ig.game.sessionData.bgmVol);
 				ig.soundHandler.sfxPlayer.volume(ig.game.sessionData.sfxVol);
+
+				if(!ig.game.sessionData.bgmOn){
+					ig.soundHandler.bgmPlayer.mute()
+				} else {
+					ig.soundHandler.bgmPlayer.unmute()
+				}
+
+				if(!ig.game.sessionData.sfxOn){
+					ig.soundHandler.sfxPlayer.mute()
+				} else {
+					ig.soundHandler.sfxPlayer.unmute()
+				}
 			},
+
 			fpsCount: function() {
 				if(!this.fpsTimer) {
 					this.fpsTimer = new ig.Timer(1);

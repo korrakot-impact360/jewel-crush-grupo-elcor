@@ -42,6 +42,8 @@ var _STRINGS = {
 
 	"Buttons" : {
 		"ok" : "OK",
+		"on" : "ON",
+		"off" : "OFF"
 	},
 	
 	"Results":{
