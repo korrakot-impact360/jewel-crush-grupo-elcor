@@ -86,7 +86,7 @@
 					,LevelGameplay
 				]);
 
-				this.director.currentLevel = 2;
+				this.director.currentLevel = 3;
 				
 				// CALL LOAD LEVELS
 				if (_SETTINGS['Branding']['Splash']['Enabled']) {
