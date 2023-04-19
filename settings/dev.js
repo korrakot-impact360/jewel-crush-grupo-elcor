@@ -126,7 +126,7 @@ var _SETTINGS = {
 
     'Versioning': {
         'Version': '1.0.0',
-        'Build': '10',
+        'Build': '14',
 
         'DisplayLog': true,
         'DrawVersion': true,
