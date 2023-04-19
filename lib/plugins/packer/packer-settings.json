@@ -1,0 +1,8 @@
+{
+    "enabled": true,
+    "textureSize": 2048,
+    "compression": "imagemin",
+    "qualityMin": 0.85,
+    "qualityMax": 1,
+    "qualityJpg": 80
+}

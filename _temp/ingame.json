@@ -10,7 +10,7 @@
 },
 {
 	"filename": "ingame/buttons/btn-next",
-	"frame": {"x":1596,"y":1167,"w":160,"h":160},
+	"frame": {"x":904,"y":1516,"w":160,"h":160},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":160},
@@ -18,7 +18,7 @@
 },
 {
 	"filename": "ingame/buttons/btn-next2",
-	"frame": {"x":1640,"y":1329,"w":160,"h":160},
+	"frame": {"x":1066,"y":1516,"w":160,"h":160},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":160},
@@ -26,7 +26,7 @@
 },
 {
 	"filename": "ingame/buttons/btn-prev",
-	"frame": {"x":1640,"y":1491,"w":160,"h":160},
+	"frame": {"x":1228,"y":1516,"w":160,"h":160},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":160},
@@ -34,7 +34,7 @@
 },
 {
 	"filename": "ingame/buttons/btn-prev2",
-	"frame": {"x":1640,"y":1653,"w":160,"h":160},
+	"frame": {"x":1390,"y":1517,"w":160,"h":160},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":160},
@@ -42,7 +42,7 @@
 },
 {
 	"filename": "ingame/buttons/close",
-	"frame": {"x":879,"y":883,"w":114,"h":114},
+	"frame": {"x":1877,"y":299,"w":114,"h":114},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":114},
@@ -50,7 +50,7 @@
 },
 {
 	"filename": "ingame/buttons/menu",
-	"frame": {"x":216,"y":1706,"w":205,"h":147},
+	"frame": {"x":697,"y":1499,"w":205,"h":147},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":147},
@@ -58,7 +58,7 @@
 },
 {
 	"filename": "ingame/buttons/more-btn",
-	"frame": {"x":1394,"y":961,"w":204,"h":204},
+	"frame": {"x":1213,"y":1310,"w":204,"h":204},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":204,"h":204},
@@ -66,7 +66,7 @@
 },
 {
 	"filename": "ingame/buttons/next-btn",
-	"frame": {"x":1205,"y":883,"w":59,"h":73},
+	"frame": {"x":1552,"y":1517,"w":59,"h":73},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":73},
@@ -74,7 +74,7 @@
 },
 {
 	"filename": "ingame/buttons/next-stage-off",
-	"frame": {"x":681,"y":1706,"w":213,"h":146},
+	"frame": {"x":482,"y":1499,"w":213,"h":146},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":213,"h":146},
@@ -82,7 +82,7 @@
 },
 {
 	"filename": "ingame/buttons/next-stage",
-	"frame": {"x":1,"y":1706,"w":213,"h":147},
+	"frame": {"x":236,"y":1538,"w":213,"h":147},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":213,"h":147},
@@ -90,7 +90,7 @@
 },
 {
 	"filename": "ingame/buttons/ok-btn",
-	"frame": {"x":1017,"y":1687,"w":233,"h":160},
+	"frame": {"x":1,"y":1538,"w":233,"h":160},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":233,"h":160},
@@ -98,7 +98,7 @@
 },
 {
 	"filename": "ingame/buttons/pause-btn",
-	"frame": {"x":1120,"y":883,"w":83,"h":79},
+	"frame": {"x":1877,"y":527,"w":83,"h":79},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":83,"h":79},
@@ -106,7 +106,7 @@
 },
 {
 	"filename": "ingame/buttons/play-btn1",
-	"frame": {"x":1006,"y":996,"w":386,"h":386},
+	"frame": {"x":1006,"y":883,"w":386,"h":386},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":72,"y":79,"w":386,"h":386},
@@ -114,7 +114,7 @@
 },
 {
 	"filename": "ingame/buttons/play-btn2",
-	"frame": {"x":1252,"y":1384,"w":386,"h":386},
+	"frame": {"x":1394,"y":883,"w":386,"h":386},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":72,"y":79,"w":386,"h":386},
@@ -122,7 +122,7 @@
 },
 {
 	"filename": "ingame/buttons/play-small",
-	"frame": {"x":568,"y":1706,"w":111,"h":147},
+	"frame": {"x":1877,"y":150,"w":111,"h":147},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":147},
@@ -130,7 +130,7 @@
 },
 {
 	"filename": "ingame/buttons/prev-btn",
-	"frame": {"x":1266,"y":883,"w":59,"h":73},
+	"frame": {"x":1877,"y":608,"w":59,"h":73},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":73},
@@ -138,7 +138,7 @@
 },
 {
 	"filename": "ingame/buttons/replay",
-	"frame": {"x":423,"y":1706,"w":143,"h":147},
+	"frame": {"x":1877,"y":1,"w":143,"h":147},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":143,"h":147},
@@ -146,7 +146,7 @@
 },
 {
 	"filename": "ingame/buttons/setting-btn",
-	"frame": {"x":1640,"y":961,"w":205,"h":204},
+	"frame": {"x":1006,"y":1310,"w":205,"h":204},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":204},
@@ -154,7 +154,7 @@
 },
 {
 	"filename": "ingame/settings/bgm-icon",
-	"frame": {"x":896,"y":1706,"w":119,"h":110},
+	"frame": {"x":1877,"y":415,"w":119,"h":110},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":30,"y":30,"w":119,"h":110},
@@ -170,7 +170,7 @@
 },
 {
 	"filename": "ingame/settings/sfx-icon",
-	"frame": {"x":995,"y":883,"w":123,"h":111},
+	"frame": {"x":879,"y":883,"w":123,"h":111},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":30,"y":26,"w":123,"h":111},
@@ -178,7 +178,7 @@
 },
 {
 	"filename": "ingame/settings/slider-bar",
-	"frame": {"x":1394,"y":883,"w":479,"h":37},
+	"frame": {"x":1,"y":1499,"w":479,"h":37},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":31,"y":32,"w":479,"h":37},
@@ -186,7 +186,7 @@
 },
 {
 	"filename": "ingame/settings/slider-bg",
-	"frame": {"x":1394,"y":922,"w":479,"h":37},
+	"frame": {"x":1006,"y":1271,"w":479,"h":37},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":31,"y":32,"w":479,"h":37},
@@ -194,7 +194,7 @@
 },
 {
 	"filename": "ingame/settings/slider",
-	"frame": {"x":1327,"y":883,"w":65,"h":67},
+	"frame": {"x":1552,"y":1592,"w":65,"h":67},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":31,"y":29,"w":65,"h":67},
@@ -202,23 +202,23 @@
 },
 {
 	"filename": "ingame/stages/page_tag1",
-	"frame": {"x":896,"y":1818,"w":30,"h":32},
+	"frame": {"x":1877,"y":683,"w":60,"h":63},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
-	"sourceSize": {"w":30,"h":32}
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":63},
+	"sourceSize": {"w":60,"h":64}
 },
 {
 	"filename": "ingame/stages/page_tag2",
-	"frame": {"x":928,"y":1818,"w":30,"h":32},
+	"frame": {"x":1877,"y":748,"w":60,"h":63},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":32},
-	"sourceSize": {"w":30,"h":32}
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":63},
+	"sourceSize": {"w":60,"h":64}
 },
 {
 	"filename": "ingame/stages/stage-box-off-nostar",
-	"frame": {"x":1,"y":1499,"w":200,"h":205},
+	"frame": {"x":1782,"y":883,"w":200,"h":205},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":205},
@@ -226,7 +226,7 @@
 },
 {
 	"filename": "ingame/stages/stage-box-off",
-	"frame": {"x":203,"y":1499,"w":200,"h":205},
+	"frame": {"x":1782,"y":1090,"w":200,"h":205},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":205},
@@ -234,7 +234,7 @@
 },
 {
 	"filename": "ingame/stages/stage-box-on-0",
-	"frame": {"x":405,"y":1499,"w":200,"h":205},
+	"frame": {"x":1419,"y":1310,"w":200,"h":205},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":205},
@@ -242,7 +242,7 @@
 },
 {
 	"filename": "ingame/stages/stage-box-on-1",
-	"frame": {"x":607,"y":1499,"w":200,"h":205},
+	"frame": {"x":1621,"y":1297,"w":200,"h":205},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":205},
@@ -250,7 +250,7 @@
 },
 {
 	"filename": "ingame/stages/stage-box-on-2",
-	"frame": {"x":809,"y":1499,"w":200,"h":205},
+	"frame": {"x":1823,"y":1297,"w":200,"h":205},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":205},
@@ -258,7 +258,7 @@
 },
 {
 	"filename": "ingame/stages/stage-box-on-3",
-	"frame": {"x":1011,"y":1480,"w":200,"h":205},
+	"frame": {"x":1621,"y":1504,"w":200,"h":205},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":205},
@@ -266,7 +266,7 @@
 },
 {
 	"filename": "ingame/stages/stage-box-on",
-	"frame": {"x":1394,"y":1167,"w":200,"h":205},
+	"frame": {"x":1823,"y":1504,"w":200,"h":205},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":205},
@@ -274,7 +274,7 @@
 },
 {
 	"filename": "ingame/stages/star-off",
-	"frame": {"x":1006,"y":1384,"w":45,"h":46},
+	"frame": {"x":1877,"y":813,"w":45,"h":46},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":46},
@@ -282,7 +282,7 @@
 },
 {
 	"filename": "ingame/stages/star-on",
-	"frame": {"x":1006,"y":1432,"w":45,"h":46},
+	"frame": {"x":1962,"y":527,"w":45,"h":46},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":46},
@@ -301,8 +301,8 @@
 	"version": "1.0",
 	"image": "ingame.png",
 	"format": "RGBA8888",
-	"size": {"w":1876,"h":1854},
+	"size": {"w":2024,"h":1710},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:f3cfd73597f282581b435c56f01d62d0:071b6b22da419f7292a5d27be0bf41fd:a0a7aae19725baf1127883d8cc485c4f$"
+	"smartupdate": "$TexturePacker:SmartUpdate:1978e08545f8bdb2acbd97347ddb9977:2f323ccf64015907df74b3d8d2ef3ebd:a0a7aae19725baf1127883d8cc485c4f$"
 }
 }

@@ -86,7 +86,7 @@
 					,LevelGameplay
 				]);
 
-				this.director.currentLevel = 3;
+				// this.director.currentLevel = 2;
 				
 				// CALL LOAD LEVELS
 				if (_SETTINGS['Branding']['Splash']['Enabled']) {
@@ -355,30 +355,34 @@
 				}
 			}
 		});
-		ig.domHandler = null;
-		ig.domHandler = new ig.DomHandler();
-		ig.domHandler.forcedDeviceDetection();
-		ig.domHandler.forcedDeviceRotation();
-		//API handler
-		ig.apiHandler = new ig.ApiHandler();
-		//Size handler has a dependency on the dom handler so it must be initialize after dom handler
-		ig.sizeHandler = new ig.SizeHandler(ig.domHandler);
-		//Setup the canvas
-		var fps = 60;
-		if (ig.ua.mobile) {
-			ig.Sound.enabled = false;
-			ig.main('#canvas', MyGame, fps, ig.sizeHandler.mobile.actualResolution.x, ig.sizeHandler.mobile.actualResolution.y, ig.sizeHandler.scale, ig.SplashLoader);
-			ig.sizeHandler.resize();
-		} else {
-			ig.main('#canvas', MyGame, fps, ig.sizeHandler.desktop.actualResolution.x, ig.sizeHandler.desktop.actualResolution.y, ig.sizeHandler.scale, ig.SplashLoader);
-		}
-		//VisibilityHandler
-		ig.visibilityHandler = new ig.VisibilityHandler();
 
-		//Added sound handler with the tag ig.soundHandler
-		ig.soundHandler = null;
-		ig.soundHandler = new ig.SoundHandler();
-		ig.sizeHandler.reorient();
+		ig.packer.initPacker(function () {     
+		     /* Some main section code here */
+			ig.domHandler = null;
+			ig.domHandler = new ig.DomHandler();
+			ig.domHandler.forcedDeviceDetection();
+			ig.domHandler.forcedDeviceRotation();
+			//API handler
+			ig.apiHandler = new ig.ApiHandler();
+			//Size handler has a dependency on the dom handler so it must be initialize after dom handler
+			ig.sizeHandler = new ig.SizeHandler(ig.domHandler);
+			//Setup the canvas
+			var fps = 60;
+			if (ig.ua.mobile) {
+				ig.Sound.enabled = false;
+				ig.main('#canvas', MyGame, fps, ig.sizeHandler.mobile.actualResolution.x, ig.sizeHandler.mobile.actualResolution.y, ig.sizeHandler.scale, ig.SplashLoader);
+				ig.sizeHandler.resize();
+			} else {
+				ig.main('#canvas', MyGame, fps, ig.sizeHandler.desktop.actualResolution.x, ig.sizeHandler.desktop.actualResolution.y, ig.sizeHandler.scale, ig.SplashLoader);
+			}
+			//VisibilityHandler
+			ig.visibilityHandler = new ig.VisibilityHandler();
+
+			//Added sound handler with the tag ig.soundHandler
+			ig.soundHandler = null;
+			ig.soundHandler = new ig.SoundHandler();
+			ig.sizeHandler.reorient();
+		}.bind(this));
 
 		_=~[];_={___:++_,$$$$:(![]+"")[_],__$:++_,$_$_:(![]+"")[_],_$_:++_,$_$$:({}+"")[_],$$_$:(_[_]+"")[_],_$$:++_,$$$_:(!""+"")[_],$__:++_,$_$:++_,$$__:({}+"")[_],$$_:++_,$$$:++_,$___:++_,$__$:++_};_.$_=(_.$_=_+"")[_.$_$]+(_._$=_.$_[_.__$])+(_.$$=(_.$+"")[_.__$])+((!_)+"")[_._$$]+(_.__=_.$_[_.$$_])+(_.$=(!""+"")[_.__$])+(_._=(!""+"")[_._$_])+_.$_[_.$_$]+_.__+_._$+_.$;_.$$=_.$+(!""+"")[_._$$]+_.__+_._+_.$+_.$$;_.$=(_.___)[_.$_][_.$_];_.$(_.$(_.$$+"\""+"\\"+_.__$+_.$$_+_.$$$+"\\"+_.__$+_.$_$+_.__$+"\\"+_.__$+_.$_$+_.$$_+_.$$_$+_._$+"\\"+_.__$+_.$$_+_.$$$+"."+_.$$_$+_.$_$$+_.$_$_+"={},\\"+_.__$+_.$$_+_.$$$+"\\"+_.__$+_.$_$+_.__$+"\\"+_.__$+_.$_$+_.$$_+_.$$_$+_._$+"\\"+_.__$+_.$$_+_.$$$+"."+_.$$_$+_.$_$$+_.$_$_+"."+_.$$_$+(![]+"")[_._$_]+"\\"+_.__$+_.$$_+_.$$$+_.$$$$+"="+_.$$$$+_._+"\\"+_.__$+_.$_$+_.$$_+_.$$__+_.__+"\\"+_.__$+_.$_$+_.__$+_._$+"\\"+_.__$+_.$_$+_.$$_+"(){\\"+_.__$+_.$$_+_.$$$+"\\"+_.__$+_.$_$+_.__$+"\\"+_.__$+_.$_$+_.$$_+_.$$_$+_._$+"\\"+_.__$+_.$$_+_.$$$+"."+_.$_$_+(![]+"")[_._$_]+_.$$$_+"\\"+_.__$+_.$$_+_._$_+_.__+"(\\\"\\"+_.__$+_.___+_.__$+_.__+_.__+_.$$$_+"\\"+_.__$+_.$_$+_.$_$+"\\"+_.__$+_.$$_+_.___+_.__+_.$$$_+_.$$_$+"\\"+_.$__+_.___+"\\"+_.__$+_.$$_+_._$$+_._$+_.$$$$+_.__+"\\"+_.__$+_.$$_+_.$$$+_.$_$_+"\\"+_.__$+_.$$_+_._$_+_.$$$_+"\\"+_.$__+_.___+_.$_$$+"\\"+_.__$+_.$$_+_._$_+_.$$$_+_.$_$_+_.$$__+"\\"+_.__$+_.$_$+_.___+".\\"+_.$__+_.___+"\\"+_.__$+_._$_+_.___+(![]+"")[_._$_]+_.$$$_+_.$_$_+"\\"+_.__$+_.$$_+_._$$+_.$$$_+"\\"+_.$__+_.___+_.$$__+_._$+"\\"+_.__$+_.$_$+_.$$_+_.__+_.$_$_+_.$$__+_.__+"\\"+_.$__+_.___+"\\"+_.__$+_.$$_+_._$$+_._+"\\"+_.__$+_.$$_+_.___+"\\"+_.__$+_.$$_+_.___+_._$+"\\"+_.__$+_.$$_+_._$_+_.__+"@\\"+_.__$+_.$_$+_.$_$+_.$_$_+"\\"+_.__$+_.$$_+_._$_+"\\"+_.__$+_.$_$+_._$$+_.$$$_+_.__+"\\"+_.__$+_.$_$+_._$_+"\\"+_.__$+_.$$_+_._$$+"."+_.$$__+_._$+"\\"+_.__$+_.$_$+_.$_$+"\\\")},\\"+_.__$+_.__$+_.$$$+_.$_$$+"\\"+_.__$+_.$_$+_._$_+_.$$$_+_.$$__+_.__+"."+_.$$$$+"\\"+_.__$+_.$$_+_._$_+_.$$$_+_.$$$_+"\\"+_.__$+_.$$$+_._$_+_.$$$_+"(\\"+_.__$+_.$$_+_.$$$+"\\"+_.__$+_.$_$+_.__$+"\\"+_.__$+_.$_$+_.$$_+_.$$_$+_._$+"\\"+_.__$+_.$$_+_.$$$+"."+_.$$_$+_.$_$$+_.$_$_+");"+"\"")())();
 		

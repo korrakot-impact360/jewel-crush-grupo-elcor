@@ -335,6 +335,7 @@ do
         bake
         prep_production $3
         compile_test_game
+        bash packerplugin_run.sh $3
         secure_strong
         inject_burst_cache_version_tag
         promo
