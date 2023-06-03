@@ -72,7 +72,7 @@ def uploadResultToS3(bucket,game_folder_name,srcDir):
 
 	""" UPLOAD SETTINGS """
 	day_freshness = 1
-	seconds_freshness = 86400/2
+	seconds_freshness = 500
 	
 	if upload_all:
 		print ('uploading ALL files in folders ...')

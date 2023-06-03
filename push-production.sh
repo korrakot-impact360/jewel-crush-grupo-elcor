@@ -189,7 +189,6 @@ prep_production (){
     --warning_level=QUIET \
     --js=glue/jquery/jquery-3.2.1.min.js \
     --js=glue/ie/ie.js \
-    --js=glue/jukebox/Player.js \
     --js=glue/howler/howler.js \
     --js=glue/font/promise.polyfill.js \
     --js=glue/font/fontfaceobserver.standalone.js \

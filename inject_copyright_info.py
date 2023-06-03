@@ -15,7 +15,7 @@ file1_contents = file1.read()
 # ig.system.context.fillText('This version is for demo purposes only. Copyright MarketJS.com', ig.system.width-1, ig.system.height-1);
 # ig.system.context.restore();
 
-uglifiedFunction = 'ig.system.context.save(),ig.system.context.font="20px Arial",ig.system.context.textBaseline="bottom",ig.system.context.textAlign="right",ig.system.context.fillText("For demo purposes only. Copyright MarketJS.com",ig.system.width-1,ig.system.height-1),ig.system.context.restore();'
+uglifiedFunction = 'ig.system.context.save(),ig.system.context.fillStyle="#000000",ig.system.context.font="32px Arial",ig.system.context.textBaseline="bottom",ig.system.context.textAlign="right",ig.system.context.fillText("For demo purposes only. Copyright MarketJS.com",ig.system.width-1,ig.system.height-1),ig.system.context.restore();'
 jjencodedText = jjencode.JJEncoder(uglifiedFunction, '_').encoded_text
 
 new_code = file1_contents.replace('this.COPYRIGHT;',jjencodedText)

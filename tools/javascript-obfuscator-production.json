@@ -1,6 +1,6 @@
 {
    "domainLock":[
-      "cdn-factory.marketjs.com"
+      "cdn-factory.marketjs.com"      
    ],
    "compact":true,
    "controlFlowFlattening":false,
